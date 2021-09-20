@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#banner {
+    background-image: url(https://www.soingressos.com/storage/products/10201860e5aa126ece5.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 200px 0px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    color: white;
+    background-color: rgba(128, 87, 0, 0.452);
+    padding: 20px 0px;
+}
+
+p {
+    padding: 10px;
+    text-align: justify;
+}
+
+main {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: cover;
+    padding-left: 10px;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    padding: 15px;
+}
+
+iframe {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+}
+
+ul {
+    padding: 20px 0px 20px 50px;
+}
+
+footer {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+h3 {
+    padding: 10px;
+}
+
+#redesocial img {
+    width: 80px;
+    position: relative;
+    left: 10px;
+    padding: 10px;
+}
+
+@media (min-width:769px) and (max-width:1279px) {
+    iframe{
+        width: 700px;
+        height: 380px;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    iframe{
+        width: 450px;
+        height: 250px;
+    }
+
+    h1 {
+        font-size: 60px;
+        text-align: center;
+    }
+    #banner{
+        padding: 100px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+    main {
+        font-size: 25px;
+    }
+
+    footer {
+        font-size: 20px;
+    }
+
+    #redesocial img {
+        width: 50px;
+        position: relative;
+        left: 5px;
+        padding: 5px;
+    }
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    iframe{
+        width: 320px;
+        height: 180px;
+    }
+    h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    #banner{
+        padding: 100px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+    main {
+        font-size: 20px;
+    }
+
+    footer {
+        font-size: 15px;
+    }
+
+    #redesocial img {
+        width: 40px;
+        position: relative;
+        left: 5px;
+        padding: 5px;
+    }
+}
